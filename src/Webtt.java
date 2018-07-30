@@ -46,7 +46,7 @@ public class Webtt {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-//Open new tab
+//Open new tab,control + T doesn't work for Chrome because of issues of Chromedriver itself.
 	 ((JavascriptExecutor) driver).executeScript("window.open('https://www.google.com','_blank');");
 	 driver.get("https://www.google.com");
 }
