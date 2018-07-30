@@ -49,5 +49,8 @@ public class Webtt {
 //Open new tab,control + T doesn't work for Chrome because of issues of Chromedriver itself.
 	 ((JavascriptExecutor) driver).executeScript("window.open('https://www.google.com','_blank');");
 	 driver.get("https://www.google.com");
+	 ((JavascriptExecutor) driver).executeScript("window.open('https://www.google.com','_blank');");
+	 driver.get("https://www.google.com");
+	 
 }
 }
